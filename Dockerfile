@@ -9,7 +9,7 @@ WORKDIR /app
 # Generates the package
 RUN mvn install
 
-# Http port 2
+# Http port 3
 ENV PORT 9000
 EXPOSE  $PORT
 
